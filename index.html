@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="The home of Biztrade.1. Follow the project and its updates on GitHub.">
+  <meta name="theme-color" content="#101b17">
+  <title>Biztrade.1</title>
+  <style>
+    :root { color-scheme: dark; font-family: system-ui, sans-serif; background: #101b17; color: #eff9f1; }
+    * { box-sizing: border-box; }
+    body { margin: 0; min-height: 100svh; display: flex; flex-direction: column; background: radial-gradient(ellipse at 90% 20%, #234638, transparent 65%); }
+    header, main, footer { width: min(100% - 3rem, 68rem); margin-inline: auto; }
+    header { padding-block: 1.5rem; border-bottom: 1px solid #365144; font-weight: 700; }
+    .mark { color: #a8f2be; margin-right: .55em; }
+    main { flex: 1; display: grid; grid-template-columns: 1.2fr 1fr; align-items: center; gap: 2rem; padding-block: clamp(3rem, 10vw, 8rem); }
+    .eyebrow { color: #a8f2be; font-size: .8rem; font-weight: 700; letter-spacing: .16em; text-transform: uppercase; }
+    h1 { font-size: clamp(3.2rem, 9vw, 7rem); line-height: 1; letter-spacing: -.07em; margin: .2em 0; }
+    p { line-height: 1.6; color: #c6d9cf; }
+    a { color: inherit; }
+    a:focus-visible { outline: 2px solid #fff; outline-offset: 5px; }
+    .button { display: inline-block; margin-top: .75rem; padding: .85rem 1.2rem; border-radius: .45rem; text-decoration: none; background: #a8f2be; color: #101b17; font-weight: 700; }
+    .button:hover { background: #cbfad8; }
+    svg { display: block; width: 100%; max-width: 30rem; margin-inline: auto; }
+    footer { border-top: 1px solid #365144; padding-block: 1.25rem; color: #c6d9cf; font-size: .875rem; }
+    @media (max-width: 42rem) { main { grid-template-columns: 1fr; } svg { max-width: 20rem; margin-inline: 0; } }
+  </style>
+</head>
+<body>
+  <header><span class="mark" aria-hidden="true">◈</span>Biztrade.1</header>
+  <main>
+    <section>
+      <p class="eyebrow">Project homepage</p>
+      <h1>Biztrade.1</h1>
+      <p>Welcome to Biztrade.1. Visit the project repository for code and updates.</p>
+      <a class="button" href="https://github.com/lankapallibenny/Biztrade.1">View the repository <span aria-hidden="true">↗</span></a>
+    </section>
+    <svg viewBox="0 0 420 300" aria-hidden="true" focusable="false">
+      <defs>
+        <pattern id="grid" width="30" height="30" patternUnits="userSpaceOnUse">
+          <path d="M30 0H0V30" fill="none" stroke="#365144"/>
+        </pattern>
+        <linearGradient id="fill" x2="0" y2="1">
+          <stop stop-color="#a8f2be" stop-opacity=".35"/>
+          <stop offset="1" stop-color="#a8f2be" stop-opacity="0"/>
+        </linearGradient>
+      </defs>
+      <rect x="15" y="15" width="390" height="270" rx="16" fill="url(#grid)" stroke="#365144"/>
+      <path d="M45 237H110L160 175H218L271 132H318L373 64V267H45Z" fill="url(#fill)"/>
+      <path d="M45 237H110L160 175H218L271 132H318L373 64" fill="none" stroke="#a8f2be" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+      <circle cx="373" cy="64" r="7" fill="#a8f2be"/>
+    </svg>
+  </main>
+  <footer>Hosted on GitHub Pages</footer>
+</body>
+</html>
